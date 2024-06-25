@@ -1,5 +1,5 @@
 pipeline {
-   agent { label '192.168.221.155' }
+   agent { label 'Serveur_Client_Jenkins' }
     stages {
         stage('build') {
             steps {
